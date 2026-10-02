@@ -22,7 +22,6 @@ const theme={title:'HUMAN / INPUT',tagline:'AI IS A TOOL. YOU ARE THE REASON.',c
 {name:'ONE MORE ITERATION',line:'YES, THE IRONY WAS GENERATED TOO.',act:'IV / MAKE'},
 {name:'PLAY IT LOUD',line:'A BETTER TOOL. STILL YOUR HANDS.',act:'IV / MAKE'},
 {name:'HUMAN IN THE LOOP',line:'PLEASE WAIT FASTER.',act:'IV / MAKE'},
-{name:'MAKE IT YOURS',line:'THE TOOL BENDS SPACE. YOU PICK THE WAY.',act:'IV / MAKE'},
 {name:'STANDING ON SHOULDERS',line:'HUMANS MADE THE SCENE. RESPECT.',act:'V / CREDITS'},
 {name:'YOUR TURN',line:'MACHINE GENERATED. HUMAN INITIATED.',act:'V / CREDITS'}]};
 if(typeof module!=='undefined'&&module.exports)module.exports=theme;else root.HumanInputTheme=theme;
