@@ -24,8 +24,8 @@ export class Paula {
     for(let i=0;i<left.length;i++){
       const fade=Math.max(0,Math.min(1,(176.64-this.position-i/this.rate)/3.84));
       // Gentle analogue-like saturation, with headroom; identical in exports and live replay.
-      left[i]=i<n?.88*Math.tanh(heap[(this.left>>2)+i]*3.2)*fade:0;
-      right[i]=i<n?.88*Math.tanh(heap[(this.right>>2)+i]*3.2)*fade:0;
+      left[i]=i<n?.88*Math.tanh(heap[(this.left>>2)+i]*2.35)*fade:0;
+      right[i]=i<n?.88*Math.tanh(heap[(this.right>>2)+i]*2.35)*fade:0;
     }
     this.position+=n/this.rate;return n;
   }

@@ -2,7 +2,7 @@
 
 **AI is a tool. You are the reason.**
 
-An English-language, deliberately self-referential demoscene comedy. Machine-generated code and music; human-initiated intention. 176.64 seconds, 23 chapters, 125 BPM with double-time turbo sections, four ProTracker channels, 15 original synthesized 8-bit samples, 1080p / 50 fps.
+An English-language, deliberately self-referential demoscene comedy. Machine-generated code and music; human-initiated intention. 176.64 seconds, 23 chapters, 125 BPM with beat-synchronized turbo visuals, four ProTracker channels, 16 original synthesized 8-bit samples, 1080p / 50 fps.
 
 ## Play
 
@@ -19,11 +19,15 @@ Open http://127.0.0.1:8767/demoscene/ and select Run the demo. Space pauses, arr
 
 ## Sound and comedy
 
-The hard melodic chiptune combines an overdriven pulse lead, saturated triangle bass, strong synthesized kick/snare, rapid crystal arpeggios and add9 harmony. The Am–F–C–G theme develops through a Dm–F–Am–G bridge, a quiet break and double-time sections with a 250 BPM feel. The actual tracker tempo remains 125 BPM, keeping the visual timeline exact.
+The revised score uses a cinematic science-fiction synth mood: an original sparse minor-key lead, a pulsing bass, a lower-register repeating arpeggio, slow filtered chord attacks and restrained percussion. The central progression is Am–F–Dm–Em; the final cadence returns to A minor. Chord inversions keep upper voices close as the bass moves. Pads and arpeggios alternate in one Paula channel so they do not crowd the lead.
 
-All instruments and the lead's short echo are stored in the real MOD samples. The browser and WAV/AAC exports share the same A500 replay path, 80% stereo separation, gentle soft saturation with headroom, and ending fade. The MOD remains editable in ProTracker 2 clone or OpenMPT.
+Every melodic sample has an explicit reference MIDI pitch. The composer converts musical pitches to Paula periods without silently clamping out-of-range notes. It checks that strong-beat melody notes belong to the current chord, passing notes remain diatonic and the integer-period tuning error stays under eight cents. Lead: E4–F5; arpeggio: G3–F4; bass: D2–C3. These checks establish pitch consistency, not artistic quality. See out/music-audit.json.
 
-The Amiga-style red-and-white Boing Ball appears early and returns as the disruptive guest at a board of fictional AI-logo parodies: OPEN INVOICE, CLAUDE NINE, GEMIN-I and DEEP SLEEP. Their designs are original vector caricatures. The ball follows a ballistic arc, compresses against the floor, stretches on rebound, and casts a height-sensitive shadow. Scene transitions use eased fades; turbo cuts remain on the beat.
+The original melodies and 16 synthesized samples evoke a futuristic instrument rather than reproduce an existing film score.
+
+All instruments and chord voicings are stored in the real MOD samples. The browser and WAV/AAC exports share the same A500 replay path, 80% stereo separation, reduced soft saturation with headroom, and ending fade. The MOD remains editable in ProTracker 2 clone or OpenMPT.
+
+The Amiga-style red-and-white Boing Ball appears early and returns as the disruptive guest at a board of fictional AI-logo parodies: OPEN INVOICE, CLAUDE NINE, GEMIN-I and DEEP SLEEP. Their designs are original vector caricatures. The ball follows a ballistic arc, compresses against the floor, stretches on rebound, and casts a height-sensitive shadow. Scene transitions use eased fades; turbo cuts remain on the beat. Scenes 4 and 22 combine letter ripples, whole-line vertical motion and animated copper-like gradients. The tunnel wraps periodically without a left-edge colour seam. City streets and building bases share one ground plane; objects are clipped at the camera and retire only after passing behind it.
 
 ## Impossible finale
 
@@ -45,6 +49,7 @@ npm run verify:demo
 - music.cjs synthesizes samples, composes the score and writes a binary M.K. MOD.
 - amiga.js and vendor/paula-worklet.js handle live MOD replay; amiga-render.cjs renders the same sound offline.
 - theme.js contains the English five-act narrative.
+- geometry.js provides face culling, shared camera projection and near-plane clipping.
 - engine.js is the deterministic 23-scene renderer shared by browser and export.
 - comedy.js draws the Boing Ball and fictional logo parodies.
 - impossible.js renders the 4D, Penrose and recursive finale.
@@ -60,12 +65,13 @@ Local output filenames retain the initial raster-ritual prefix:
 
 - out/raster-ritual.mp4: full-quality 1080p/50 fps master.
 - out/human-input-web.mp4: compact 1080p/50 fps web copy.
-- out/raster-ritual.mod: real four-channel ProTracker module, 195664 bytes.
+- out/raster-ritual.mod: real four-channel ProTracker module, 293282 bytes.
 - out/raster-ritual.wav: 48 kHz, 16-bit stereo master.
 - out/raster-ritual.m4a: AAC fallback soundtrack.
 - out/raster-ritual-source.zip: code, MOD, browser audio, font and research.
 - out/contact-sheet.png: all 23 chapters.
 - out/verification.json: validation results.
+- out/music-audit.json: pitch, voicing and harmony audit.
 - research.html and research/top100.json: the English research report and dataset.
 
 The portable archive excludes the large MP4/WAV files; download them separately or regenerate them. Published filenames use human-input.

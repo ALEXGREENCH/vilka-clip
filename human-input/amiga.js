@@ -6,7 +6,7 @@ class AmigaAudio {
     this.loading=(async()=>{
       this.context=new AudioContext({latencyHint:'playback',sampleRate:48000});
       const response=await fetch(this.url);if(!response.ok)throw Error('MOD download failed');const bytes=await response.arrayBuffer();
-      await this.context.audioWorklet.addModule('vendor/paula-worklet.js');
+      await this.context.audioWorklet.addModule('vendor/paula-worklet.js?v=harmony5');
       this.node=new AudioWorkletNode(this.context,'human-input-paula',{numberOfInputs:0,numberOfOutputs:1,outputChannelCount:[2]});
       this.gain=this.context.createGain();this.gain.gain.value=this._volume;this.node.connect(this.gain).connect(this.context.destination);
       await new Promise((resolve,reject)=>{

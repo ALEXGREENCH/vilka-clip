@@ -1,4 +1,4 @@
-import {ready,Paula} from './paula.js';
+import {ready,Paula} from './paula.js?v=harmony5';
 class PaulaProcessor extends AudioWorkletProcessor {
   constructor(){super();this.paused=true;this.count=0;this.port.onmessage=async({data:d})=>{
     try{
