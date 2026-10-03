@@ -1,0 +1,100 @@
+{
+  "machine": "ZX Spectrum 48K",
+  "core": "JSSpeccy 3.2 WebAssembly",
+  "programBytes": 38315,
+  "tapBytes": 38401,
+  "scenes": [
+    {
+      "scene": 1,
+      "name": "Star drive",
+      "measuredFps": 12.5,
+      "pc": 24313,
+      "ticks": 279
+    },
+    {
+      "scene": 2,
+      "name": "Sine plasma",
+      "measuredFps": 5.5,
+      "pc": 25015,
+      "ticks": 279
+    },
+    {
+      "scene": 3,
+      "name": "Wave scroller",
+      "measuredFps": 12.5,
+      "pc": 25258,
+      "ticks": 279
+    },
+    {
+      "scene": 4,
+      "name": "Vector cube",
+      "measuredFps": 7.5,
+      "pc": 25427,
+      "ticks": 279
+    },
+    {
+      "scene": 5,
+      "name": "Polar tunnel",
+      "measuredFps": 5.5,
+      "pc": 24553,
+      "ticks": 279
+    },
+    {
+      "scene": 6,
+      "name": "Rotozoom",
+      "measuredFps": 12.5,
+      "pc": 25100,
+      "ticks": 279
+    },
+    {
+      "scene": 7,
+      "name": "Metaball fusion",
+      "measuredFps": 8.5,
+      "pc": 25949,
+      "ticks": 279
+    },
+    {
+      "scene": 8,
+      "name": "Fractal dive",
+      "measuredFps": 5.5,
+      "pc": 24313,
+      "ticks": 279
+    },
+    {
+      "scene": 9,
+      "name": "Voxel flight",
+      "measuredFps": 8.5,
+      "pc": 25948,
+      "ticks": 279
+    },
+    {
+      "scene": 10,
+      "name": "Four dimensions",
+      "measuredFps": 4,
+      "pc": 25627,
+      "ticks": 279
+    },
+    {
+      "scene": 11,
+      "name": "Recursive gates",
+      "measuredFps": 8.5,
+      "pc": 26026,
+      "ticks": 279
+    },
+    {
+      "scene": 12,
+      "name": "Liquid chrome",
+      "measuredFps": 8.5,
+      "pc": 26051,
+      "ticks": 279
+    }
+  ],
+  "passed": true,
+  "checks": [
+    "TAP block checksums and BASIC loader",
+    "48K RAM and SNA layout",
+    "12 moving scenes on Z80 core",
+    "Automatic full sequence and loop",
+    "Native next-scene and AY mute keys"
+  ]
+}

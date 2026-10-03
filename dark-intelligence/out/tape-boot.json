@@ -1,0 +1,42 @@
+{
+  "loaded": true,
+  "traps": [
+    {
+      "shouldLoad": 1,
+      "block": 1,
+      "flag": 0,
+      "expected": 0,
+      "start": 23778,
+      "len": 17,
+      "ok": true
+    },
+    {
+      "shouldLoad": 1,
+      "block": 2,
+      "flag": 255,
+      "expected": 255,
+      "start": 23755,
+      "len": 36,
+      "ok": true
+    },
+    {
+      "shouldLoad": 1,
+      "block": 3,
+      "flag": 0,
+      "expected": 0,
+      "start": 23814,
+      "len": 17,
+      "ok": true
+    },
+    {
+      "shouldLoad": 1,
+      "block": 4,
+      "flag": 255,
+      "expected": 255,
+      "start": 24064,
+      "len": 38315,
+      "ok": true
+    }
+  ],
+  "pc": 24313
+}

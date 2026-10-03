@@ -1,0 +1,344 @@
+{
+  "framesPerEffect": {
+    "metaballs": 18,
+    "fractal": 12,
+    "landscape": 12,
+    "tesseract": "32 native vector poses",
+    "portals": 12,
+    "chrome": 12
+  },
+  "modernRawBytes": 42240,
+  "modernPackedBytes": 23145,
+  "frames": [
+    {
+      "effect": "METABALLS",
+      "frame": 0,
+      "bytes": 195
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 1,
+      "bytes": 188
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 2,
+      "bytes": 189
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 3,
+      "bytes": 196
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 4,
+      "bytes": 192
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 5,
+      "bytes": 198
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 6,
+      "bytes": 201
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 7,
+      "bytes": 197
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 8,
+      "bytes": 185
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 9,
+      "bytes": 196
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 10,
+      "bytes": 188
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 11,
+      "bytes": 211
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 12,
+      "bytes": 205
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 13,
+      "bytes": 198
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 14,
+      "bytes": 191
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 15,
+      "bytes": 192
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 16,
+      "bytes": 189
+    },
+    {
+      "effect": "METABALLS",
+      "frame": 17,
+      "bytes": 191
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 0,
+      "bytes": 399
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 1,
+      "bytes": 325
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 2,
+      "bytes": 272
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 3,
+      "bytes": 254
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 4,
+      "bytes": 272
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 5,
+      "bytes": 325
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 6,
+      "bytes": 399
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 7,
+      "bytes": 486
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 8,
+      "bytes": 393
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 9,
+      "bytes": 243
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 10,
+      "bytes": 393
+    },
+    {
+      "effect": "FRACTAL DIVE",
+      "frame": 11,
+      "bytes": 486
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 0,
+      "bytes": 244
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 1,
+      "bytes": 238
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 2,
+      "bytes": 250
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 3,
+      "bytes": 249
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 4,
+      "bytes": 246
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 5,
+      "bytes": 274
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 6,
+      "bytes": 282
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 7,
+      "bytes": 312
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 8,
+      "bytes": 325
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 9,
+      "bytes": 307
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 10,
+      "bytes": 283
+    },
+    {
+      "effect": "VOXEL FLIGHT",
+      "frame": 11,
+      "bytes": 272
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 0,
+      "bytes": 495
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 1,
+      "bytes": 608
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 2,
+      "bytes": 595
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 3,
+      "bytes": 532
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 4,
+      "bytes": 603
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 5,
+      "bytes": 589
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 6,
+      "bytes": 499
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 7,
+      "bytes": 582
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 8,
+      "bytes": 546
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 9,
+      "bytes": 467
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 10,
+      "bytes": 571
+    },
+    {
+      "effect": "RECURSIVE GATES",
+      "frame": 11,
+      "bytes": 575
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 0,
+      "bytes": 458
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 1,
+      "bytes": 445
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 2,
+      "bytes": 449
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 3,
+      "bytes": 446
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 4,
+      "bytes": 443
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 5,
+      "bytes": 441
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 6,
+      "bytes": 451
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 7,
+      "bytes": 465
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 8,
+      "bytes": 461
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 9,
+      "bytes": 469
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 10,
+      "bytes": 459
+    },
+    {
+      "effect": "LIQUID CHROME",
+      "frame": 11,
+      "bytes": 465
+    }
+  ]
+}

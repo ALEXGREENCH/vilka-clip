@@ -1,0 +1,9 @@
+{
+  "emulator": "Unmodified JSSpeccy 3.2",
+  "machine": 48,
+  "chip": "AY-3-8912",
+  "frames": 6955,
+  "seconds": 139.1,
+  "rms": 0.07058421373218146,
+  "peak": 0.2688252329826355
+}

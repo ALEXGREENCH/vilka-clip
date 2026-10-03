@@ -1,0 +1,12 @@
+{
+  "title": "The Benevolent Machine",
+  "composer": "Original generated composition for this demo",
+  "chip": "AY-3-8912, 1.7734 MHz, ABC",
+  "bpm": 125,
+  "rowsPerBeat": 4,
+  "ticksPerRow": 6,
+  "bars": 72,
+  "durationNominal": 138.24,
+  "method": "Z80 IM2 interrupt; three tone voices plus time-shared noise percussion; standard FFFD/BFFD ports",
+  "reference": "Space-opera tension and martial orchestration; no quoted Star Wars melody"
+}

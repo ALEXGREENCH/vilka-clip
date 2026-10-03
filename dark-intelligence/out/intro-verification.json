@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "shards": 128,
+  "fragment": "8x8 bitmap plus native INK/PAPER/BRIGHT",
+  "finishedAt": 201,
+  "seconds": 4.02,
+  "samples": [
+    {
+      "frame": 30,
+      "active": 1,
+      "shatterFrame": 0,
+      "visibleCells": 765
+    },
+    {
+      "frame": 85,
+      "active": 1,
+      "shatterFrame": 5,
+      "visibleCells": 120
+    },
+    {
+      "frame": 120,
+      "active": 1,
+      "shatterFrame": 14,
+      "visibleCells": 91
+    },
+    {
+      "frame": 240,
+      "active": 0,
+      "shatterFrame": 40,
+      "visibleCells": 768
+    }
+  ]
+}
