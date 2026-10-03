@@ -10,7 +10,7 @@ An English-language demoscene comedy: 23 procedural chapters, 5:48, 1080p / 50 f
 
 Pixel Pulse was supplied by the creator as an MP3 generated with Suno. The player now uses native stereo MP3 playback. Its original sound, melody, pitch and tempo are preserved; the active soundtrack has no MOD conversion, Paula processing or reconstructed instruments.
 
-The supplied source is 3:39. The demo edit repeats an opening phrase and four twelve-bar passages to support the longer scenes, for a runtime of 348.631125 seconds. All source sections remain in their original order. Short 4 ms ramps are applied only at non-contiguous edit jumps, with a four-second final fade. The result is encoded as 48 kHz stereo MP3 at 320 kbps. The unmodified original MP3 is available as a separate download.
+The supplied source is 3:39. The demo edit runs for 348.631125 seconds, with one long 52-bar reprise to support the longer scenes. The opening plays continuously. At 3:09.47, a one-bar crossfade returns to 0:58.11 of the source, matching the beat phase and similar harmonic material. Playback then continues uninterrupted to the final four-second fade. Complementary smooth gains retain peak headroom. There are no short intro or twelve-bar loops. The result is encoded as 48 kHz stereo MP3 at 320 kbps. The unmodified original MP3 is available as a separate download.
 
 The browser plays the MP3 directly using HTML audio. The side panel shows musical position, not simulated tracker notes. Graphics follow the audio clock. A measured transient map and energy envelope drive pulses and a continuously integrated motion clock. Chapter cuts fall on six-bar boundaries at approximately 95 BPM; turbo montages use half-beats. Audio analysis and video export use the same edited soundtrack.
 
@@ -49,4 +49,4 @@ The first 100 unique productions in Pouet's demo category, sorted by popularity,
 
 The music is the creator's supplied Suno track Pixel Pulse. The procedural visuals and player were created for this demo. Press Start 2P is included under the SIL Open Font License in ../assets/PressStart2P-OFL.txt. The chrome title uses installed Impact with system fallbacks.
 
-Validation covers original stereo playback, audio-derived timing, all scene motion and deterministic seeking, camera clipping, frame count, synchronized media duration and full video/audio decoding. Technical checks do not substitute for musical judgement.
+Validation covers original stereo playback, sample-by-sample source continuity across the reported jumps in chapters 1, 15 and 19, audio-derived timing, all scene motion and deterministic seeking, camera clipping, frame count, synchronized media duration and full video/audio decoding. Technical checks do not substitute for musical judgement.
